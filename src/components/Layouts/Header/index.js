@@ -38,7 +38,7 @@ const Header = () => {
                         <div className='flex items-center justify-center font-bold'>Lorem</div>
                     </div>
                     <div className="invisible w-[0px] tablet:visible tablet:w-[auto] flex items-center">
-                        <button className={classes.collapseButton} type='button'  data-bs-toggle='collapse' data-bs-target='#leftLoremCollapseOne' aria-expanded='true'   aria-controls='leftLoremCollapseOne'>
+                        <button className={classes.collapseButton} type='button'  data-bs-toggle='collapse' data-bs-target='#leftLoremCollapseOne' aria-expanded='false'   aria-controls='leftLoremCollapseOne'>
                         </button>
                     </div>
                 </div>

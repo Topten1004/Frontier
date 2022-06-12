@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #303030;
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #5e6673;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: '#5e6673';
+}
+
+@layer components {
+  .lorem-list-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    border: none;
+    background: transparent;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-thumb {
+    width: 8px;
+    border: none;
+    background: transparent;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-track {
+      width: 8px;
+      border: none;
+
+      background : transparent;
+      background-image: url("/GvV1R30.png") !important;
+      background-repeat: repeat-y !important;
+      background-size: contain !important;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    border: none;
+    background: transparent;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-track-piece {
+    display:  none;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-corner {
+    display: none;
+  }
+
+  .lorem-list-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: #1c1c1c;
+    border : 1px solid #393838
+  } ;
+}
+

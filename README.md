@@ -8,6 +8,7 @@ Frontierx is a Next UI with Tailwind Css for my trial company.
 2. Next
 3. Tailwind
 
+test merge
 ### Install and run
 
 - devlopment
